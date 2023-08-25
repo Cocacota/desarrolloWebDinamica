@@ -1,4 +1,4 @@
-<?php include_once "../../../../cabecera/header.php";?>
+
 <html>
     <head>
         <title>Ejemplo de PHP</title>

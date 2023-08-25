@@ -1,4 +1,4 @@
-<?php include_once "../../../../cabecera/header.php";?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
