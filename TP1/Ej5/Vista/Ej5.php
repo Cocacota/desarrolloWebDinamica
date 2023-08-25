@@ -119,7 +119,7 @@
                         Edad:
                         </td>
                         <td>
-                        <input type="text" name="edad" id="edad"/><br/>
+                        <input type="number" name="edad" id="edad"/><br/>
                         </td>
                     </tr>
                     <tr>
@@ -143,7 +143,6 @@
                             <select id="sexo" name="sexo">
                                 <option value="Masculino">Masculino</option>
                                 <option value="Femenino">Femenino</option>
-                                <option value="Otro">Otro</option>
                             </select>
                         </td>
                     </tr>

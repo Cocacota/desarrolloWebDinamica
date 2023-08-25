@@ -7,9 +7,9 @@ if ($_GET){
         $direccion = $_GET['direccion'];
         $edad = $_GET['edad'];
         if ($edad >= 18){
-            echo "<h2>Hola yo soy ".$nombre.", ".$apellido." tengo ".$edad." años y vivo en ".$direccion.".</h2>";
+            echo "<h2>Hola yo soy ".$nombre.", ".$apellido." tengo ".$edad." años(mayor de edad) y vivo en ".$direccion.".</h2>";
         } else {
-            echo "<h2>Hola yo soy ".$nombre.", ".$apellido." tengo ".$edad." años.</h2>";
+            echo "<h2>Hola yo soy ".$nombre.", ".$apellido." tengo ".$edad." años(Menor de edad) y vivo en ".$direccion.".</h2>";
         }
     }
 }

@@ -12,7 +12,7 @@ if ($_GET){
             echo "<h2>Hola yo soy ".$nombre.", ".$apellido." tengo ".$edad." años y vivo en ".$direccion.".<br>
             Estudios: ".$estudios.".<br>Sexo: ".$sexo.".</h2>";
         } else {
-            echo "<h2>Hola yo soy ".$nombre.", ".$apellido." tengo ".$edad." años.
+            echo "<h2>Hola yo soy ".$nombre.", ".$apellido." tengo ".$edad." años(menor de edad) y vivo en ".$direccion.".
             <br>Estudios: ".$estudios.".<br>Sexo: ".$sexo."</h2>";
         }
     }
